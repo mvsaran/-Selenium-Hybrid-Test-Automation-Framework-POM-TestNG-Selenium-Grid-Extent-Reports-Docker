@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="GroupSuite">
+  
+  <groups>
+    <run>
+      <include name="Sanity"/>
+      <include name="Regression"/>
+    </run>
+  </groups>
+
+  <test thread-count="5" name="Test">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC_RegistrationTest"/>
+      <class name="testCases.TC_LoginTest"/>
+      <!-- <class name="testCases.TC_DatadrivenLoginTest"/> -->
+    </classes>
+  </test>
+
+</suite>
+

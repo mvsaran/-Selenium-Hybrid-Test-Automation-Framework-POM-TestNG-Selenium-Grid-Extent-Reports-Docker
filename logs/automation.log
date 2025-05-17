@@ -1,0 +1,2 @@
+2025-05-15 16:42:08 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6b474074: 3 ms
+2025-05-15 16:42:08 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@49a71302: 0 ms
